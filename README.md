@@ -7,6 +7,13 @@
 ```
 <a href="http://www.lichengblog.com/demo/monaco/index.html" target="_blank">在线预览</a>
 
+### 指南
+```
+1：从monaco官网下载源码包（放到项目中public或其他不会被webpack打包的目录）
+2：写一个原生js挂载monaco（参照项目中public下的monaco.js）
+3：在vue代码中异步引入js（参照src/components/monaco.vue）
+```
+
 ### 资源
 
 从<a href="https://microsoft.github.io/monaco-editor/" target="_blank"> monaco</a>官网下载源码
